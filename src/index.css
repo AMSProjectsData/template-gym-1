@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* a{
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  width: 100%;
+  font-family:'Helvetica Neue',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.leaflet-control-attribution.leaflet-control {
+  display: none;
+}

@@ -1,0 +1,64 @@
+.localization_content{
+    padding: 5rem 3rem;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    color: #fff;
+}
+
+.localization_data{
+    position: relative;
+    width: 25rem;
+    /* height: 25rem; */
+}
+
+.span_styled{
+    color: #fab734;
+    margin-left: 20px;
+    font-size: .7rem;
+}
+
+.localization_data h1{
+    margin: 0 0 1rem ;
+}
+
+.span_styled::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    left: 0;
+    top: .3rem;
+
+    background-color: #fab734;
+}
+
+.localization_data span, .localization_info h3{
+    display: block;
+}
+
+.localization_info h3{
+    font-size: 1rem;
+}
+.localization_info span{
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+.localization_info{
+    border: 1px solid #3a3838;
+    padding: .7rem;
+    margin-top: 2rem;
+}
+
+.leaflet_container{
+    width: 25rem;
+    height: 27rem;
+    z-index: 4;
+}
+
+.leaflet-control-attribution.leaflet-control {
+    display: none;
+}
