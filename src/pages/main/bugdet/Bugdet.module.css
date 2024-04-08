@@ -1,0 +1,108 @@
+.bugdet_content{
+ padding: 5rem 3rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ color: #fff;
+ text-align: center;
+ background-color: #101010;
+}
+
+.lines{
+    position: relative;
+}
+
+.bugdet_content > h1{
+    margin-bottom: 2rem;
+}
+
+.span_styled{
+    color: #fab734;
+    font-size: .7rem;
+    display: block;
+}
+
+.span_styled::before{
+    content: '';
+    position: absolute;
+    width: .937rem;
+    height: 2px;
+    left: -1.3rem;
+    top: .3rem;
+
+    background-color: #fab734;
+}
+.span_styled::after{
+    content: '';
+    position: absolute;
+    width: .937rem;
+    height: 2px;
+    right: -1.3rem;
+    top: .3rem;
+
+    background-color: #fab734;
+}
+
+.plans{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.bugdet_price{
+    border: 1px solid #3a3838;
+    padding: 3rem;
+    width: 20rem;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.bugdet_price span{
+    display: flex;
+}
+
+.bugdet_price h2{
+    font-size: 1rem;
+    margin-bottom: .4rem
+}
+
+.bugdet_price .details_month{
+    display:inline;
+    font-size: 1rem;
+}
+
+.line{
+    width: 100%;
+    position: relative;
+    margin: 2rem 0;
+}
+
+.line span::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+    height: 1px;
+    width: 100%;
+
+}
+
+.feature{
+    width: 100%;
+
+}
+
+.feature span{
+    margin: 1rem 0;
+    display: block;
+}
+
+.feature svg{
+    margin-right: 1rem;
+}
